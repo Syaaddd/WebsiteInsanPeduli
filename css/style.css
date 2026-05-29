@@ -155,6 +155,12 @@ img { max-width: 100%; height: auto; display: block; }
   height: 36px;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+  border-radius: 4px;
+}
+
 .nav {
   display: flex;
   align-items: center;
