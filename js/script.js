@@ -85,10 +85,10 @@ if (contactForm) {
     e.preventDefault();
 
     const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
     const message = document.getElementById('message').value.trim();
 
-    if (!name || !email || !message) {
+    if (!name || !phone || !message) {
       alert('Mohon lengkapi semua field yang diperlukan.');
       return;
     }
